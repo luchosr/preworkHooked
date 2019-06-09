@@ -5,6 +5,7 @@ const JSReddit = () => {
 
   return (
     <li className="redditNews">
+      <h3>hola soy un item</h3>
       <h5
         className="postTittle"
         style={{ color: "#F8F8F2", padding: "10px", fontSize: "0.9em" }}

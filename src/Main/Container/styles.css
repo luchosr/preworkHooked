@@ -1,0 +1,6 @@
+.container {
+  overflow: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
