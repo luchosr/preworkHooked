@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "./Link";
+import Link from "./Link.js";
 import "./styles.css";
 import { ReactComponent as InitabLogo } from "./logo.svg";
 import SocialMedia from "./SocialMedia.js";
