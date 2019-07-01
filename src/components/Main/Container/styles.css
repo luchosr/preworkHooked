@@ -1,0 +1,18 @@
+.container {
+  overflow: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+}
+.container__title {
+  text-transform: uppercase;
+  color: #8be9fd;
+  font-size: 16px;
+  font-weight: 200;
+  margin-top: 40px;
+  text-align: center;
+}
+.container__icon {
+  margin: 10px;
+}
