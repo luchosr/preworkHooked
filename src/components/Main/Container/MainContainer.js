@@ -25,10 +25,7 @@ const MainContainer = props => {
         </span>
         {props.title}
       </h4>
-      <JSReddit />
-      {/* <ul className="container__uList">
-        <ItemComponent />
-      </ul> */}
+      <props.itemComponent />
     </div>
   );
 };
