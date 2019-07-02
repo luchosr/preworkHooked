@@ -24,7 +24,7 @@ function App() {
         width="25%"
         title="Popular on r/javascript"
         itemComponent={JSReddit}
-        titleIcon="wrench"
+        titleIcon={faRedditAlien}
       />
     </div>
   );
