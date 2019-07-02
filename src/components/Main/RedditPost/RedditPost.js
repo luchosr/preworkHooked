@@ -6,19 +6,19 @@ const RedditPost = props => (
       className="postTittle"
       style={{ color: "#F8F8F2", margin: "0 0 4px 0", fontSize: "14px" }}
     >
-      titulo asd asd as asd
+      {props.title}
     </h5>
     <h6
       className="postAuthor"
       style={{ color: "#66d9ef", margin: "0 0 4px 0", fontSize: "14px" }}
     >
-      Posted By <span style={{ color: "#f1fa8c" }}>autor</span>{" "}
+      Posted By <span style={{ color: "#f1fa8c" }}>{props.author}</span>{" "}
     </h6>
     <h6 className="score" style={{ color: "#6272a4", margin: "0 0 4px 0" }}>
-      reddit score puntos
+      Reddit Score {props.score}
     </h6>
     <a
-      href="www.google.com"
+      href={props.url}
       className="comments"
       style={{ textDecoration: "none", color: "#ff79c6", padding: "10px" }}
     >

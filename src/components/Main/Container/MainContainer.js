@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./styles.css";
+
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -24,9 +25,10 @@ const MainContainer = props => {
         </span>
         {props.title}
       </h4>
-      <ul className="container__uList">
+      <JSReddit />
+      {/* <ul className="container__uList">
         <ItemComponent />
-      </ul>
+      </ul> */}
     </div>
   );
 };
