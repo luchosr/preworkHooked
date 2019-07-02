@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import RedditPost from "../RedditPost/RedditPost"
+import RedditPost from "../RedditPost/RedditPost";
+import { faDivide } from "@fortawesome/free-solid-svg-icons";
 
 const JSReddit = () => {
   const [error, seterror] = useState(null);
@@ -23,9 +24,19 @@ const JSReddit = () => {
   };
   return (
     // aca mapeas reddit post y retornas la plantilla con los datos.
-{
-  redditPost.map(post => )
-}
+    <ul>
+      {!error &&
+        redditPost.length > 0 &&
+        redditPost.map(post => (
+          <RedditPost
+            key={post.data.id}
+            title={post.data.title}
+            author={post.data.author}
+            url={post.data.url}
+            score={post.data.score}
+          />
+        ))}
+    </ul>
   );
 };
 
