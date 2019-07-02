@@ -23,7 +23,7 @@ function App() {
         maxHeight="100%"
         width="25%"
         title="Popular on r/javascript"
-        itemComponent="JSReddit"
+        itemComponent={JSReddit}
         titleIcon="wrench"
       />
     </div>
