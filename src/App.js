@@ -12,6 +12,7 @@ import {
   faReddit
 } from "@fortawesome/free-brands-svg-icons";
 import JsItemsContainer from "./components/Main/ClockContainer/JsItemsContainer";
+import JsHistoryContainer from "./components/Main/Container/JsHistoryContainer";
 
 library.add(faRedditAlien, faClock, faGithub, faWrench, faReddit);
 
@@ -27,13 +28,7 @@ function App() {
         itemComponent={JSReddit}
         titleIcon={faRedditAlien}
       />
-      <MainContainer
-        maxHeight="100%"
-        width="49%"
-        title="Relevant javascript history"
-        itemComponent={JsItemsContainer}
-        titleIcon={faClock}
-      />
+      <JsHistoryContainer />
     </div>
   );
 }
