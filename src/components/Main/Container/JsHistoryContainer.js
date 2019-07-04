@@ -3,6 +3,7 @@ import JsItemsContainer from "../ClockContainer/JsItemsContainer";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Clock from "../ClockContainer/Clock";
 library.add(faClock);
 
 const JsHistoryContainer = () => (
@@ -14,6 +15,7 @@ const JsHistoryContainer = () => (
       RELEVANT JAVASCRIPT HISTORY
     </h4>
     <JsItemsContainer />
+    <Clock />
   </div>
 );
 
